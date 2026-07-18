@@ -400,6 +400,16 @@ export const Component = () => {
                                             />
                                         }
                                     />
+                                    <FormControlLabel
+                                        label={globalize.translate('ForceTranscodingOfSurroundAACtoAC3')}
+                                        control={
+                                            <Checkbox
+                                                name='ForceTranscodingOfSurroundAACtoAC3'
+                                                checked={config.ForceTranscodingOfSurroundAACtoAC3}
+                                                onChange={onCheckboxChange}
+                                            />
+                                        }
+                                    />
                                 </FormGroup>
                             </FormControl>
 
